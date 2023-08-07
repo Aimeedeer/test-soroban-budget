@@ -1165,7 +1165,6 @@ fn main() {
     let header = "Syscalls|SyscallsInput|ArbitraryInput|CPU|MEM|Duration";
     writeln!(&mut log_to_csv, "{}", header).unwrap();
 
-    println!("loooooooooooooooooooooooooooop");
     for _ in 0..10000 {
         env.budget().reset_unlimited();
 
